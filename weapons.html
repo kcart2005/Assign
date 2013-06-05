@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>War Path</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 60px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+
+      @media (max-width: 980px) {
+        /* Enable use of floated navbar text */
+        .navbar-text.pull-right {
+          float: none;
+          padding-left: 5px;
+          padding-right: 5px;
+        }
+      }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="../assets/js/html5shiv.js"></script>
+    <![endif]-->
+
+    <!-- Fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="ico/apple-touch-icon-114-precomposed.png">
+      <link rel="apple-touch-icon-precomposed" sizes="72x72" href="ico/apple-touch-icon-72-precomposed.png">
+                    <link rel="apple-touch-icon-precomposed" href="ico/apple-touch-icon-57-precomposed.png">
+                                   <link rel="shortcut icon" href="ico/favicon.png">
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container-fluid">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="brand" href="index.html"> War Path </a>
+          <div class="nav-collapse collapse">
+            <p class="navbar-text pull-right">
+              Logged in as <a href="#" class="navbar-link">Username</a>
+            </p>
+            <ul class="nav">
+              <li><a href="index.html"><i class="icon-home icon-white"></i> | Home | </a></li>
+              <li><a href="about.html"> | About | </a></li>
+              <li><a href="contact.html"> | Contact | </a></li>
+			  <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#"> | Catagories | 
+				</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+					<li class="active"><a href="page1.html">Weapons</a></li>
+					<li><a href="#">Spiritual</a></li>
+					<li><a href="#">Education</a></li>
+					<li><a href="#">Reading</a></li>
+					<li><a href="#">Music</a></li>
+					<li><a href="#">Tools</a></li>
+					<li class="divider"></li>
+					<li class="nav-header">Nav header</li>
+					<li><a href="#"> | Separated link | </a></li>
+					<li><a href="#"> | One more separated link | </a></li>
+                </ul>
+              </li>
+            </ul>
+			<form class="navbar-search pull-left">
+				<input type="text" class="search-query" placeholder="Search">
+			</form>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="span3">
+          <div class="well sidebar-nav">
+            <ul class="nav nav-list">
+              <li class="nav-header"><a href="catalog.html"><h5>Catalog</h5></a><hr /></li>
+			  <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Weapons</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <ul><li class="active">Weapons</li></ul></li>
+				<li><a href="page1.html">Gunstock</a></li>
+				<li><a href="page2.html">Ball Club</a></li>
+				<li><a href="page3.html">Tomahawk</a></li>
+			  </ul>
+			  <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Spiritual</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <ul><li>Spiritual</li></ul></li>
+				<li><a href="#">Pipe Kits</a></li>
+				<li><a href="#">Bundle's</a></li>
+				<li><a href="#">Medicine Bags</a></li>
+			  </ul>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Education</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <ul><li>Education</li></ul></li>
+				<li><a href="#">Tribes</a></li>
+				<li><a href="#">Culture</a></li>
+				<li><a href="#">Languages</a></li>
+			  </ul>
+              <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Reading</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <ul><li>Reading</li></ul></li>
+				<li><a href="#">Legends</a></li>
+				<li><a href="#">Fiction</a></li>
+				<li><a href="#">Non-Fiction</a></li>
+			  </ul>
+			  <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Music</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <ul><li>Music</li></ul></li>
+				<li><a href="#">Pow-wow</a></li>
+				<li><a href="#">Round Dance</a></li>
+				<li><a href="#">Country</a></li>
+			  </ul>
+			  <li class="dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Tools</a>
+                <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+              <ul><li>Tools</li></ul></li>
+				<li><a href="#">Leather</a></li>
+				<li><a href="#">Hunting</a></li>
+				<li><a href="#">Ceremony</a></li>
+			  </ul>
+			  <li class="nav-header"><hr /><h5>Materials</h5><hr /></li>
+              <li><a href="#">Outfits</a></li>
+              <li><a href="#">Leather/Hides</a></li>
+              <li><a href="#">Carving</a></li>
+              <li><a href="#">Beading</a></li>
+              <li><a href="#">Decoration</a></li>
+              <li><a href="#">Survival</a></li>
+              <li class="nav-header"><hr /><h5>Links</h5><hr /></li>
+              <li><a href="http://www.nativemartialarts.ca/">Oki-Chi-Taw</a></li>
+              <li><a href="http://www.ncct.on.ca/">Native Canadian Centre</a></li>
+              <li><a href="http://www.ncct.on.ca/giftshop.php">The Cedar Basket</a></li>
+            </ul>
+          </div><!--/.well -->
+        </div><!--/span-->
+        <div class="span7">
+          <div class="hero-unit2">
+            <h1>Weapons</h1>
+            <p>This is the weapons page of the inventory we have at War Path Industries</p>
+          </div>
+          <div class="row-fluid">
+            <div class="span4">
+              <h3>Gunstock War Club</h3>
+				<p> Plains Cree gunstock war club (nontoni towin mistik), a weapon developed throughout North America during European occupation and colonization. These war clubs were originally taken from rifle stocks, although later versions were carved to simulate the rifle stock shape and The Plains gunstock war club has a characteristic elbow in the stock in both the long (horseback) or short (ground) versions.</p>
+				<p><a class="btn" href="page1.html">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h3>Iriquois Warclub</h3>
+				<p>The war club is essentially the Iroquois version of the mace, with a few variations. Usually it was a simple wooden ball affixed to a length of wood, however there may have been a few with a spike jutting out of the ball itself. When this weapon is used it crushes skulls and bones, and provides instant death in the case of the former and a prolonged death in the case of the latter. The war club is also the only purpose built weapon of the Iroquios. The others double as tools.</p>
+				<p><a class="btn" href="page2.html">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h3>Tomahawk</h3>
+				<p>Original native American tomahawks were used as tools or weapons and were made from stone.  But native American tomahawks were also used to confirm friendships and even establish treaties.  In this case, native American tomahawks were a little more fancy than the ones in everyday use.  Perhaps these native American tomahawks were made from silver or pewter and engraved ornately and were owned by those chiefs who were considered to be prominent.</p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+          <div class="row-fluid">
+            <div class="span4">
+              <h3>Knife</h3>
+				<p>Dream catchers are one of the most fascinating traditions of Native Americans. The traditional dream catcher was intended to protect the sleeping individual from negative dreams, while letting positive dreams through. The positive dreams would slip through the hole in the center of the dream catcher, and glide down the feathers to the sleeping person below. The negative dreams would get caught up in the web, and expire when the first rays of the sun struck them</p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h3>Bow</h3>
+				<p>A medicine bundle is considered a very precious possession which represents a person's spiritual life, and may possess powers for protection and healing. As the owner grows older, more items may be added to it. Personal medicine bundles are usually buried with the owner, or passed on to a friend upon the owner's death.</p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+            <div class="span4">
+              <h3>Lance</h3>
+				<p>One of the Cree drums has a single-head for an individual player.  Its main components are a birch wood frame and a deer hide head.  This particular drum's sound is a harmonious buzz.  This fundamental tone contains various harmonics and the inharmonic partials (not members of a harmonic set such as the octave, fifth, third, etc.).</p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+			<div class="span4">
+              <h3>War Shield</h3>
+				<p>One of the Cree drums has a single-head for an individual player.  Its main components are a birch wood frame and a deer hide head.  This particular drum's sound is a harmonious buzz.  This fundamental tone contains various harmonics and the inharmonic partials (not members of a harmonic set such as the octave, fifth, third, etc.).</p>
+				<p><a class="btn" href="#">View details &raquo;</a></p>
+            </div><!--/span-->
+          </div><!--/row-->
+        </div><!--/span-->
+      </div><!--/row-->
+		<hr>
+		<div class="pagination pagination-centered">
+			<ul>
+				<li><a href="#">Prev</a></li>
+				<li><a href="#">1</a></li>
+				<li><a href="#">2</a></li>
+				<li><a href="#">3</a></li>
+				<li><a href="#">4</a></li>
+				<li><a href="#">5</a></li>
+				<li><a href="#">Next</a></li>
+			</ul>
+		</div>
+      <hr>
+
+      <footer>
+        <p>War Path Industries &copy; Company 2013</p>
+      </footer>
+
+    </div><!--/.fluid-container-->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+	<script src="js/jquery-1.10.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+  </body>
+</html>
